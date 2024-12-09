@@ -1,0 +1,143 @@
+body {
+    margin: 0px;
+}
+
+.navigation-wrapper {
+    height: 100px;
+    background-color: ghostwhite;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:50px,100px
+}
+
+.navigation-wrapper > .left-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2px;
+}
+
+.navigation-wrapper > .logo-image{
+    display: flex;
+    align-items: left;
+}
+
+.logo-image img {
+    width: 150px;
+    height: 80%;
+}
+
+ .web-name {
+   display:flex;
+   justify-content: left;
+   align-items: normal;
+}
+
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.navigation-wrapper > .links-wrapper {
+    display: flex;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    width: 100px;
+}
+
+.links-wrapper > .nav-link  {
+    width: 40px;
+    text-align: center; 
+}
+
+.links-wrapper >.nav-link a {
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.links-wrapper >.nav-link a:hover {
+    color: blueviolet;
+    letter-spacing: 2px;
+}
+
+
+.sign-link a {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    color: gold;
+}
+.sign-link a {
+    font-family: 'Times New Roman', Times, serif;
+    color:blue;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.sign-link a:hover {
+    color: gold;
+    letter-spacing: 2px;
+}
+.sign-link  {
+    width: 70px;
+    text-align: center; 
+}
+.media img {
+    width: 1345px;
+    height: 1345%;
+}
+
+.paragrapgh {
+ height: 100%;
+ background-color: lightgray;
+ color: black;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 50px;
+ text-align: center;
+}
+.paragrapgh {
+    font-family: "Roboto", serif;
+    font-style: oblique;
+
+}
+.contact-info {
+    color: black;
+}
+.contact-form {
+    color: whitesmoke;
+
+}
+.email {
+    color: black;
+    text-transform: lowercase;
+}
+.social-media{
+    color: black;
+}
+.footer-media {
+    font-family: "Ubuntu Condensed", serif;
+    font-style: italic;
+}
+      
+.info {
+    height: 250px;
+    background-color: lightgray;
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2px;
+    padding: 50px;
+    text-align: right;
+}
+table {
+    width: 700px;
+    border-collapse: collapse;
+    border-style:double;
+
+}
