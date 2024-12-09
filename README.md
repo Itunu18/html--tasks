@@ -6,9 +6,8 @@
 6. HTML Lists Create an ordered and unordered list for your "To-Do List" and "Shopping List."
 8. Links and Anchor Tags Add links that navigate to different sections of the same page and to external websites.
 9. Semantic HTML Build a webpage structure using semantic elements like , , , , and
-.
+    
 CSS Tasks
-
 1. Apply Basic Styling (inline, internal, external) use external styling Style your headings, paragraphs, and links with colors, fonts, and text alignment.
 2. Background Styling Add a gradient background or an image as the background of a webpage.
 3. Box Model Practice Create a box with padding, border, and margin to understand the box model concept.
