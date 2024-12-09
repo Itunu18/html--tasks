@@ -1,0 +1,31 @@
+body {
+   background-image: url(images/download.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
+.center-column {
+   margin: 100px;
+   background-color: lightgray;
+   color: black;
+   text-align: center;
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-gap: 2px;
+   padding: 50px;
+}
+.center-column {
+   font-family: "Roboto", serif;
+   font-style:normal
+}
+footer {
+   margin-right: 1000px;
+   background-color: dimgray;
+   border-style: hidden;
+   color: black;
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-gap: 2px;
+   padding: 20px;
+
+}
